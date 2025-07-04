@@ -6,7 +6,7 @@
   "components": [
     {
       "name": "custom-button",
-      "type": "components:ui",
+      "type": "registry:ui",
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
