@@ -1,0 +1,20 @@
+{
+  "name": "custom-shadcn-registry",
+  "version": "1.0.0",
+  "description": "独自のShadcn/ui Registry with カスタムブランディング",
+  "registry": "https://raw.githubusercontent.com/micci184/mcp_shadcn/main/public/r/",
+  "components": [
+    {
+      "name": "custom-button",
+      "type": "components:ui",
+      "dependencies": [
+        "@radix-ui/react-slot",
+        "class-variance-authority",
+        "clsx",
+        "tailwind-merge"
+      ],
+      "registryDependencies": [],
+      "files": ["custom-button.tsx"]
+    }
+  ]
+}
