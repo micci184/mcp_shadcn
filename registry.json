@@ -1,4 +1,5 @@
 {
+  "$schema": "https://ui.shadcn.com/schema.json",
   "name": "custom-shadcn-registry",
   "version": "1.0.0",
   "description": "独自のShadcn/ui Registry with カスタムブランディング",
@@ -7,6 +8,7 @@
     {
       "name": "custom-button",
       "type": "registry:ui",
+      "description": "カスタムブランディングされたButtonコンポーネント",
       "dependencies": [
         "@radix-ui/react-slot",
         "class-variance-authority",
@@ -14,7 +16,7 @@
         "tailwind-merge"
       ],
       "registryDependencies": [],
-      "files": ["custom-button.tsx"]
+      "files": ["ui/custom-button.tsx"]
     }
   ]
 }
